@@ -4,7 +4,7 @@ import time
 import requests
 from bs4 import BeautifulSoup
 
-# Optional gym dependency fallback (gym is obsolete/deprecated in modern Python)
+# Optional gym dependency (deprecated in modern Python)
 try:
     import gym
     SpaceBase = gym.spaces.Space
